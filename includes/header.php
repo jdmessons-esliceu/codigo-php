@@ -9,6 +9,7 @@ if (!isset($pageTitle)) {
     <meta charset="UTF-8">
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
     <link rel="stylesheet" href="/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/css/lightbox.css?v=<?php echo time(); ?>">
 </head>
 <body>
 <header class="site-header">
